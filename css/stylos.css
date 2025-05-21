@@ -324,7 +324,7 @@ header>.container {
 }
 
 .benefit-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .portfolio-title-foto {
@@ -332,6 +332,10 @@ header>.container {
 }
 
 /* section 3 */
+
+.present-photo {
+  padding: 120px 0;
+}
 
 .our-team-title {
   margin-bottom: 72px;
@@ -343,7 +347,7 @@ header>.container {
 }
 
 .team-member {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
