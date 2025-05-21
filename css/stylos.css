@@ -273,7 +273,7 @@ header>.container {
   margin-right: 76px;
 }
 
-.top-line {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -282,7 +282,7 @@ header>.container {
   padding: 24px 0;
 }
 
-.contacts {
+.contacts-list {
   display: flex;
   gap: 40px;
 }
