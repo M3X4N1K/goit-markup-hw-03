@@ -240,6 +240,10 @@ body {
 
 /* FlexBox modul */
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
 }
@@ -249,15 +253,12 @@ body {
   padding-bottom: 120px;
 }
 
-.img {
-  display: block;
-}
 
 .header-top {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container {
+header>.container {
   display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
