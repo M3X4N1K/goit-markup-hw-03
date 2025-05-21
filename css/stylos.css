@@ -239,6 +239,7 @@ body {
 }
 
 /* FlexBox modul */
+/* header */
 
 img {
   display: block;
@@ -287,6 +288,7 @@ header>.container {
   gap: 40px;
 }
 
+/* section 1*/
 .section-text-button {
   padding: 188px 0;
 }
@@ -303,4 +305,27 @@ header>.container {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/* section 2 */
+
+.benefits {
+  padding: 120px 0 120px
+}
+
+.benefits-title {
+  display: none;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefit-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.portfolio-title-foto {
+  margin-bottom: 8px;
 }
