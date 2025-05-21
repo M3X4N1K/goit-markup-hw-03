@@ -1,0 +1,239 @@
+/* Загальні налаштування */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #434455
+}
+
+/* Налаштування верхньої стрічки */
+.nav-list {
+  list-style: none;
+}
+
+.address-list {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.item:hover {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.item:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.contacts-email {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contacts-email:hover {
+  color: #404bbf;
+}
+
+.contacts-email:focus {
+  color: #404bbf;
+}
+
+/* Налаштування заголовка Н1 та кнопки */
+.section-text-button {
+
+  background: #2e2f42;
+  text-align: center;
+}
+
+.prime-text {
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+}
+
+.prime-button {
+  background: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.prime-button:hover {
+  background-color: #404bbf;
+}
+
+.prime-button:focus {
+  background-color: #404bbf;
+}
+
+/* Налаштування benefits */
+.benefits {
+  background-color: #fff;
+
+}
+
+.benefits-list {
+  list-style: none;
+}
+
+/* Налаштування фото */
+
+.present-photo {
+  background: #f4f4fd;
+  text-align: center;
+}
+
+.our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+
+  color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-member {
+  background: #fff;
+}
+
+/* Налаштування портфоліо */
+
+.portfolio-section {
+  background: #fff;
+}
+
+.portfolio-title {
+
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize
+}
+
+.portfolio-list {
+  /* 48px між рядками, 24px між колонками */
+  list-style: none;
+}
+
+.portfolio-title-foto {
+
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+}
+
+.portfolio-text-foto {
+
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: left;
+}
+
+/* Футер */
+.end-page {
+  background: #2e2f42;
+}
+
+.end-page .logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.end-page .logo-studio {
+
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.end-page p {
+
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.50;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
