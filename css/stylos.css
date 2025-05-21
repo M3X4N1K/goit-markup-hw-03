@@ -237,3 +237,22 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* FlexBox modul */
+
+.container {
+  max-width: 1158px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+img {
+  display: block;
+}
+
+.header-top {
+  border-bottom: 1px solid #e7e9fc;
+}
