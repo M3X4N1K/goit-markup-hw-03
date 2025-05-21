@@ -256,3 +256,32 @@ body {
 .header-top {
   border-bottom: 1px solid #e7e9fc;
 }
+
+.header .container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.top-line {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.top-line {
+  display: flex;
+  gap: 40px;
+}
+
+.item {
+  padding: 24px 0;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
+}
