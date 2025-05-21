@@ -286,3 +286,21 @@ header>.container {
   display: flex;
   gap: 40px;
 }
+
+.section-text-button {
+  padding: 188px 0;
+}
+
+.prime-text {
+  max-width: 496px;
+}
+
+.prime-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
