@@ -403,3 +403,12 @@ header>.container {
 .portfolio-title-foto {
   margin-bottom: 8px;
 }
+
+.end-page {
+  padding: 100px 0;
+}
+
+.logo-web {
+  display: inline-block;
+  margin-bottom: 16px;
+}
