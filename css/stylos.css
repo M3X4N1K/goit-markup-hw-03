@@ -315,6 +315,7 @@ header>.container {
 
 .benefits-title {
   display: none;
+
 }
 
 .benefits-list {
@@ -323,7 +324,7 @@ header>.container {
 }
 
 .benefit-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .portfolio-title-foto {
