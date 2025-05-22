@@ -31,6 +31,7 @@ body {
 }
 
 .item {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -247,6 +248,8 @@ img {
 
 .container {
   max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -261,8 +264,7 @@ img {
 
 header>.container {
   display: flex;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+
 }
 
 .top-line {
@@ -277,10 +279,16 @@ header>.container {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .item {
   padding: 24px 0;
+}
+
+.contacts {
+  margin-left: auto;
 }
 
 .contacts-list {
@@ -295,6 +303,8 @@ header>.container {
 
 .prime-text {
   max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .prime-button {
@@ -305,6 +315,7 @@ header>.container {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 /* section 2 */
@@ -336,10 +347,21 @@ header>.container {
 
 .benefit-item {
   width: calc((100% - 72px) / 4);
+  padding-left: 0;
+  margin: 0;
+
 }
 
 .portfolio-title-foto {
   margin-bottom: 8px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.portfolio-text-foto {
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
 }
 
 /* section 3 */
@@ -386,6 +408,8 @@ header>.container {
 
 .portfolio-title {
   margin-bottom: 72px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .portfolio-list {
@@ -410,6 +434,15 @@ header>.container {
 
 .portfolio-title-foto {
   margin-bottom: 8px;
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.portfolio-text-foto {
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
 }
 
 .end-page {
@@ -419,4 +452,12 @@ header>.container {
 .logo-web {
   display: inline-block;
   margin-bottom: 16px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.end-page-text {
+  padding-left: 0;
+  margin: 0;
+  max-width: 264px;
 }
