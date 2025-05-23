@@ -283,7 +283,7 @@ header>.container {
 }
 
 .top-line {
-  display: flex;
+  display: block;
 
 }
 
