@@ -391,7 +391,7 @@ header>.container {
 /* section 3 */
 
 .present-photo {
-  padding: 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .our-team-title {
@@ -401,9 +401,6 @@ header>.container {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-left: 0;
-  margin: 0;
-
 }
 
 .team-member {
@@ -418,6 +415,7 @@ header>.container {
 .portfolio-title-foto {
 
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .portfolio-text-foto {
