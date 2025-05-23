@@ -313,6 +313,7 @@ header>.container {
 .contacts-list {
   gap: 40px;
   margin: 24;
+  margin-left: auto;
 }
 
 /* section 1*/
