@@ -285,16 +285,18 @@ img {
 
 header>.container {
   display: flex;
+  align-items: center;
 
 }
 
 .top-line {
   display: flex;
-  align-items: center;
+
 }
 
 .logo {
   margin-right: 76px;
+  padding: 24px;
 }
 
 .nav-list {
@@ -308,18 +310,10 @@ header>.container {
   padding: 24px 0;
 }
 
-.contacts {
-  margin: 0 auto;
-  align-items: center;
-  padding-left: 0 auto;
-
-}
-
 .contacts-list {
   display: block;
   gap: 40px;
   padding: 24;
-  display: flex;
 }
 
 /* section 1*/
