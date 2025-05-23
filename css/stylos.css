@@ -301,14 +301,14 @@ header>.container {
 .contacts {
   margin-left: auto;
   align-items: center;
-  display: flex;
+
 }
 
 .contacts-list {
   display: block;
   gap: 40px;
   padding: 24;
-
+  display: flex;
 }
 
 /* section 1*/
