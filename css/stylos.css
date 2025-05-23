@@ -291,7 +291,6 @@ header>.container {
 
 .top-line {
   display: flex;
-  margin: 0;
 
 }
 
@@ -312,7 +311,6 @@ header>.container {
 }
 
 .contacts-list {
-  display: block;
   gap: 40px;
   margin: 24;
 }
