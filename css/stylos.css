@@ -299,8 +299,9 @@ header>.container {
 }
 
 .contacts {
-  margin-left: auto;
+  margin: 0;
   align-items: center;
+  padding: 0;
 
 }
 
