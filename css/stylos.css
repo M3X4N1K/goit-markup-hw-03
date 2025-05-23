@@ -242,7 +242,6 @@ body {
 /* FlexBox modul */
 
 /* margin 0 padding 0 */
-
 h1,
 h2,
 h3,
@@ -250,14 +249,15 @@ h4,
 h5,
 h6,
 p {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
 ol {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 img {
@@ -271,12 +271,6 @@ img {
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 
 .header-top {
   border-bottom: 1px solid #e7e9fc;
@@ -311,8 +305,10 @@ header>.container {
 
 .contacts-list {
   gap: 40px;
-  margin: 24;
+  margin: 24px;
   margin-left: auto;
+  align-items: center;
+
 }
 
 /* section 1*/
