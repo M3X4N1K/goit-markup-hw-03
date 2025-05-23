@@ -300,7 +300,12 @@ header>.container {
 }
 
 .item {
+  display: block;
   padding: 24px 0;
+}
+
+.contacts {
+  display: block;
 }
 
 .contacts-list {
