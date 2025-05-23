@@ -175,7 +175,7 @@ body {
 
 .portfolio-title-foto {
 
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
 
   /* line-height: 24px; */
@@ -240,6 +240,17 @@ body {
 }
 
 /* FlexBox modul */
+
+/* margin 0 padding 0 */
+
+ul,
+h2,
+h3,
+p {
+  margin: 0;
+  padding-left: 0;
+}
+
 /* header */
 
 img {
@@ -289,11 +300,14 @@ header>.container {
 
 .contacts {
   margin-left: auto;
+  align-items: center;
 }
 
 .contacts-list {
-  display: flex;
+  display: block;
   gap: 40px;
+  padding: 24;
+
 }
 
 /* section 1*/
@@ -303,8 +317,7 @@ header>.container {
 
 .prime-text {
   max-width: 496px;
-  margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .prime-button {
@@ -352,6 +365,10 @@ header>.container {
 
 }
 
+.benefits>.portfolio-title-foto {
+  text-align: center;
+}
+
 .portfolio-title-foto {
   margin-bottom: 8px;
   padding-left: 0;
@@ -392,7 +409,7 @@ header>.container {
 }
 
 .portfolio-title-foto {
-  text-align: center;
+
   margin-bottom: 8px;
 }
 
@@ -435,7 +452,7 @@ header>.container {
   margin-bottom: 8px;
   padding-left: 0;
   margin: 0 0 8px 0;
-  text-align: center;
+
 }
 
 .portfolio-text-foto {
