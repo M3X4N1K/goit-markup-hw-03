@@ -301,6 +301,7 @@ header>.container {
 .contacts {
   margin-left: auto;
   align-items: center;
+  display: flex;
 }
 
 .contacts-list {
