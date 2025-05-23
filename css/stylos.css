@@ -256,8 +256,7 @@ p {
 ul,
 ol {
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -273,8 +272,8 @@ img {
 
 .container {
   max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 .header-top {
@@ -287,14 +286,10 @@ header>.container {
 
 }
 
-.top-line {
-  display: block;
-
-}
 
 .logo {
   margin-right: 76px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .nav-list {
@@ -309,13 +304,16 @@ header>.container {
 }
 
 .contacts {
-  display: block;
+
+  font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-list {
   gap: 40px;
   margin-left: auto;
   align-items: center;
+  display: flex;
 
 }
 
@@ -331,7 +329,7 @@ header>.container {
 
 .prime-text {
   max-width: 496px;
-  margin-bottom: 0 auto;
+  margin: 0 auto;
 }
 
 .prime-button {
@@ -349,7 +347,8 @@ header>.container {
 /* section 2 */
 
 .benefits {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -373,13 +372,6 @@ header>.container {
 
 .benefit-item {
   width: calc((100% - 72px) / 4);
-  padding-left: 0;
-  margin: 0;
-
-}
-
-.benefits>.portfolio-title-foto {
-  text-align: center;
 }
 
 .portfolio-title-foto {
@@ -391,7 +383,8 @@ header>.container {
 /* section 3 */
 
 .present-photo {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -420,17 +413,18 @@ header>.container {
 
 .portfolio-text-foto {
   text-align: center;
+
 }
 
 /* section 4 */
 
 .portfolio-section {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
-  padding-left: 0;
-  margin: 0 auto 72px auto;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -438,8 +432,6 @@ header>.container {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-left: 0;
-  margin: 0;
 
 }
 
@@ -455,15 +447,6 @@ header>.container {
 
 .portfolio-title-foto {
   margin-bottom: 8px;
-  padding-left: 0;
-  margin: 0 0 8px 0;
-
-}
-
-.portfolio-text-foto {
-  padding-left: 0;
-  margin: 0;
-  text-align: center;
 }
 
 .end-page {
@@ -472,13 +455,9 @@ header>.container {
 
 .logo-web {
   display: inline-block;
-
-  padding-left: 0;
-  margin: 0 0 16px 0;
+  margin-bottom: 16px;
 }
 
 .end-page-text {
-  padding-left: 0;
-  margin: 0;
   max-width: 264px;
 }
